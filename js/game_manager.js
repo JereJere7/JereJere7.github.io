@@ -16,22 +16,22 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
 
 
 // Set Prices
-function kcal(exp) {
-  var kcal = [];
-  kcal[2]=200;
-  kcal[4]=250;
-  kcal[8]=320;
-  kcal[16]=400;
-  kcal[32]=500;
-  kcal[64]=650;
-  kcal[128]=820;
-  kcal[256]=1000;
-  kcal[512]=1200;
-  kcal[1024]=1500;
-  kcal[2048]=2000;
-  kcal[4096]=3000;
-  kcal[8192]=5000;
-  return kcal[exp];
+function batteries(exp) {
+  var batteries = [];
+  batteries[2]=200;
+  batteries[4]=250;
+  batteries[8]=320;
+  batteries[16]=400;
+  batteries[32]=500;
+  batteries[64]=650;
+  batteries[128]=820;
+  batteries[256]=1000;
+  batteries[512]=1200;
+  batteries[1024]=1500;
+  batteries[2048]=2000;
+  batteries[4096]=3000;
+  batteries[8192]=5000;
+  return batteries[exp];
 }
 
 // Restart the game
