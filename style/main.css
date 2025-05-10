@@ -117,12 +117,12 @@ h1.title {
 .score-container:after {
   content: "Friend"; }
 .score-points:after {
-  content: "Kcal"; }
+  content: "Batteries"; }
 
 .best-container:after {
   content: "Friend Max"; }
 .best-points:after {
-	content: "Kcal Max"; }
+	content: "Batteries Max"; }
 
 p {
   margin-top: 0;
